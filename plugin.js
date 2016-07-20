@@ -173,7 +173,7 @@ function runAction(name, editor) {
             return actionBreak;
         }
     } catch (e) {
-        console.error(e);
+        // console.error(e);
     }
 
     return result;
